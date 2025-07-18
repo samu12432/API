@@ -1,0 +1,333 @@
+[
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.SuppliesController",
+    "Method": "AddAccessory",
+    "RelativePath": "altaAccesorio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "codeSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descriptionSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nameSupplier",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "priceSupply",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "descriptionAccessory",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.SuppliesController",
+    "Method": "AddProfile",
+    "RelativePath": "altaPerfil",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "codeSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descriptionSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nameSupplier",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "priceSupply",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "profileWeigth",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "profileHeigth",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "weigthMetro",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "profileColor",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.SuppliesController",
+    "Method": "AddVidrio",
+    "RelativePath": "altaVidrio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "codeSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descriptionSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nameSupplier",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "priceSupply",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "glassThickness",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "glassLength",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "glassWidth",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "glassType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.SuppliesController",
+    "Method": "DeleteSupply",
+    "RelativePath": "bajaInsumo",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sku",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "crearProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductCategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductDetail",
+        "Type": "System.Collections.Generic.List\u00601[[API_REST_PROYECT.DTOs.Product.SupplyNecesaryDto, API_REST_PROYECT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductPhoto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.StockController",
+    "Method": "CreateStock",
+    "RelativePath": "crearStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skuSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stockQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.SuppliesController",
+    "Method": "EditSupply",
+    "RelativePath": "editarInsumo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sku",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.StockController",
+    "Method": "UpdateStock",
+    "RelativePath": "editarStock",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skuSupply",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stockQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.AuthController",
+    "Method": "LoginUser",
+    "RelativePath": "loginuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API_REST_PROYECT.DTOs.Auth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.AuthController",
+    "Method": "RegisterUser",
+    "RelativePath": "registerUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API_REST_PROYECT.DTOs.Auth.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.StockController",
+    "Method": "GetStockBySKu",
+    "RelativePath": "stockSku",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sku",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_REST_PROYECT.Controllers.StockController",
+    "Method": "GetAllStock",
+    "RelativePath": "verStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
